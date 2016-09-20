@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title></title>
 	</head>
@@ -11,15 +12,42 @@
 		
 		<h2>Sobre Nós</h2>
 		<img class="img-responsive" src="img/empresa.jpg" alt="Foto de dentro Empresa">
+		
+		<div class="panel-group" id="painel-sobre">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title" data-toggle="collapse" data-target="#1p" data-parent="#painel-sobre">Desde 1935</h3>
+				</div>
+				<div id="1p" class="collapse in">
+					<div class="panel-body">	
+						<p>A TopCasaFina Arquitetura está no mercado desde...</p>
+					</div>
+				</div>	
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">	
+					<h3 class="panel-title" data-toggle="collapse" data-target="#2p" data-parent="#painel-sobre">Preços acessíveis</h3>
+				</div>
+				<div id="2p"  class="collapse">
+					<div class="panel-body">
+						<p>Preços a partir de R$ 1000,00.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title" data-toggle="collapse" data-target="#3p" data-parent="#painel-sobre">Alegria para colaborar com um mundo mais bonito</h3>
+				</div>
+				<div id="3p"  class="collapse">
+					<div class="panel-body">
+						<p>A TopCasaFina Arquitetura está no mercado desde...</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
-		<h3 data-toggle="collapse" data-target="#1p">Desde 1935</h3>
-		<p id="1p" class="collapse in">A TopCasaFina Arquitetura está no mercado desde...</p>
-		
-		<h3 data-toggle="collapse" data-target="#2p">Desde 1935</h3>
-		<p id="2p" class="collapse">A TopCasaFina Arquitetura está no mercado desde...</p>
-		
-		<h3 data-toggle="collapse" data-target="#3p">Desde 1935</h3>
-		<p id="3p" class="collapse">A TopCasaFina Arquitetura está no mercado desde...</p>
 	</div>
 	<script src="jquery/jquery.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
