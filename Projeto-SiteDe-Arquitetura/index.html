@@ -155,19 +155,37 @@
 			<form action="">
 				<div class="form-group">
 						
-					<label for="contato-name">Nome:</label>
-					<div class="input-group">
-						<div class="input-group-addon glyphicon glyphicon-user"></div>
-						<input class="form-control" id="contato-name" type="text" placeholder="Seu nome...">
-					</div>
+					<label for="contato-name">Nome:
+						<div class="input-group">
+							<div class="input-group-addon glyphicon glyphicon-user"></div>
+							<input class="form-control" id="contato-name" type="text" placeholder="Seu nome...">
+						</div>
+					</label>
 				</div>
 				<div>	
-					<label for="contato-email">E-mail</label>
-					<div class="input-group">
-						<div class="input-group-addon glyphicon-envelope"></div>
-						<input type="email" id="contato-email" class="form-control" placeholder="seu@email.com">
-					</div>
+					<label for="contato-email">E-mail
+						<div class="input-group">
+							<div class="input-group-addon glyphicon-envelope"></div>
+							<input type="email" id="contato-email" class="form-control" placeholder="seu@email.com">
+						</div>
+					</label>
 				</div>
+				<label>
+					<input type="radio" name="tipo-pessoa" checked>Pessoa Física
+				</label>
+
+				<label>
+					<input type="radio" name="tipo-pessoa">Pessoa Jurídica
+				</label>
+
+				<select>
+					<option value="" disabled selected>Tipo de Situação</option>
+					<option value="">Casa</option>
+					<option value="">Apartamento</option>
+					<option value="">Mansão</option>
+
+				</select>
+
 			</form>
 		</section>
 
