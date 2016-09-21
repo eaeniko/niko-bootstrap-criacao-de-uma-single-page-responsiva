@@ -1,3 +1,14 @@
 #painel-sobre {
-	margin-top: 20px;
+    margin-top: 20px;
+}
+
+.titulo-depoimento {
+    padding: 25px;
+    color: #FFF;
+    background-color: #0275D8;
+    margin-bottom: 0;
+}
+
+img {
+    box-shadow: 1px 2px 5px;
 }
